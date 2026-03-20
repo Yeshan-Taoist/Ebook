@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# VitePress cache and build output
+.vitepress/cache/
+.vitepress/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
