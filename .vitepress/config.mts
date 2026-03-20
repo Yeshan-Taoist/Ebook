@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/Ebook/'
+  base:'/Ebook/',
   title: "野山杂货铺",
   description: "一个用来记录个人思绪的地方",
   themeConfig: {
