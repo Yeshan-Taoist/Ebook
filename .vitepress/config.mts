@@ -10,7 +10,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '分类', link: '/categories' }
     ],
 
     sidebar,        // 直接使用导入的 sidebar
