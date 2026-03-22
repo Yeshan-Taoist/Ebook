@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { sidebar } from './sidebar'   // 导入自动生成的侧边栏
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -12,18 +13,10 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar,        // 直接使用导入的 sidebar
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com' }
     ]
   }
 })

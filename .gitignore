@@ -9,5 +9,8 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+# docs
+docs/B-创作记录
+
 # Logs
 *.log
